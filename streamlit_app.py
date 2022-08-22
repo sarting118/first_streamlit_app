@@ -11,7 +11,7 @@ streamlit.text('Omega 3 & Blueberry Oatmeal')
 # streamlit.text('Kale, Spinach & Rocket Smoothie  \nHard-Boiled Free-Range Egg')
 
 streamlit.text('Kale, Spinach & Rocket Smoothie')
-streamlit.text('\U+1F414 Hard-Boiled Free-Range Egg')
+streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 
 # alternative to the above - no spaces between lines
 # streamlit.text('Omega 3 & Blueberry Oatmeal  \nKale, Spinach & Rocket Smoothie  \nHard-Boiled Free-Range Egg')
