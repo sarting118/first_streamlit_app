@@ -1,4 +1,5 @@
 import streamlit
+import pandas
 
 # add a title
 streamlit.title("My Mom's New Healthy Diner")
@@ -19,3 +20,9 @@ streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 streamlit.text('🥑🍞 Avocado Toast')
 
 streamlit.header('🍇 Build your own fruit smoothie 🍌')
+
+# read in txt file
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+
+# display the dataframe onto the menu
+streamlit.dataframe(my_fruit_list)
